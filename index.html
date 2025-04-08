@@ -31,7 +31,11 @@
           colors: {
             clifford: '#da373d',
             'cmn-bg':'#EFEBE3',
-            'cmn-grn':'#179800'
+            'cmn-grn':'#179800',
+            'rc-grn':'#115414',
+            'grn-btn':'#63B76D',
+            'rc-blu':'#102861',
+            'blu-btn':'#2A4D97'
           }
         }
       }
@@ -45,8 +49,8 @@
 
 <body class="font-sora">
 
-    <!-- Header -->
-    <header class="bg-gradient-to-b from-white to-cmn-bg pt-5 overflow-hidden">
+  <!-- Header -->
+  <header class="bg-gradient-to-b from-white to-cmn-bg pt-5 overflow-hidden">
         
         <!-- Nav -->
          <nav class="px-4 lg:px-32">
@@ -111,13 +115,13 @@
             <img src="images/hero-vegetables.png" alt="" class="w-full lg:w-4/6 h-5/6">
           </div>
 
-    </header>
+  </header>
 
-    <!-- Main -->
-    <main>
+  <!-- Main -->
+  <main>
 
-      <!-- Services -->
-       <section class="my-12 md:my-16 lg:my-36 px-4 lg:px-32">
+  <!-- Services -->
+  <section class="my-12 md:my-16 lg:my-36 px-4 lg:px-32">
         <h3 class="text-2xl lg:text-4xl mb-8 lg:mb-12 text-cmn-grn">Services</h3>
         <!-- Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -161,10 +165,10 @@
           </div>
         </div>
         
-       </section>
+  </section>
 
-       <!-- Popular Prods -->
-        <section class="bg-cmn-bg px-4 py-12 md:p-16 lg:p-36">
+  <!-- Popular Prods -->
+  <section class="bg-cmn-bg px-4 py-12 md:p-16 lg:p-36">
           <h3 class="text-cmn-grn text-2xl md:text-4xl font-semibold mb-8 md:mb-12">Popular Products</h3>
 
           <!-- cards -->
@@ -330,12 +334,50 @@
               </div>
             </div>
           </div>
-        </section>    
+  </section>
+        
+  <!-- Arrival and Offers -->
+  <section class="px-4 py-12 md:p-16 lg:p-36">
+    <h3 class="text-cmn-grn text-2xl md:text-4xl font-semibold mb-8 md:mb-12">Arrival & Offers</h3>
+    <!-- cards -->
+    <div class="flex flex-col md:flex-row gap-4 md:gap-5">
+      <!-- c1 -->
+      <div class="hero rounded-2xl">
+        <div class="hero-content flex-row-reverse justify-around bg-rc-grn rounded-xl w-full h-full">
+          <img
+            src="images/dawat-mock-up.png"
+            class="w-5/6 lg:w-fit" />
+          <div>
+             <img src="images/dawat-logo.png" alt=""> <br>
+             <button class="btn btn-primary bg-grn-btn border-0 text-white text-sm lg:text-2xl font-light">Cook Exotic Dishes</button> <br><br>
+             <h3 class="text-xl lg:text-4xl text-white">UP to <span class="font-bold">20% OFF</span></h3>
+            
+          </div>
+        </div> 
+      </div>
+      <!-- c2 -->
+      <div class="hero">
+        <div class="hero-content flex-row-reverse justify-around bg-rc-blu rounded-2xl w-full h-full">
+          <img
+            src="images/india-gate-mock-up.png"
+            class="w-fit" />
+          <div>
+             <img src="images/india-gate-logo.png" alt=""> <br>
+             <button class="btn btn-primary text-white bg-blu-btn border-0 text-sm lg:text-2xl font-light">World’s No.1 Rice</button> <br> <br>
+             <h3 class="text-xl lg:text-4xl text-white">UP to <span class="font-bold">40% OFF</span></h3>
+          </div>
+        </div>
+      </div>
 
-    </main>
+     </div>
 
-    <!-- Footer -->
-     <footer></footer>
+
+  </section>     
+
+  </main>
+
+  <!-- Footer -->
+  <footer></footer>
     
 </body>
 </html>
